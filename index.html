@@ -1,0 +1,1337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>P4S Cendawa Eduwisata</title>
+    <link href="./src/style/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+  </head>
+  <body class="text-gray-800">
+    <header
+      class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-100 shadow-sm"
+    >
+      <nav
+        class="flex items-center justify-between py-5 px-28 max-[520px]:px-4 max-[520px]:flex-col max-[520px]:items-start max-[520px]:gap-6"
+      >
+        <div class="flex justify-between items-center max-[520px]:w-full">
+          <div>
+            <h1 class="text-2xl font-bold tracking-wide text-[#2F6B3D]">
+              P4S CENDAWA
+            </h1>
+            <p class="text-sm text-gray-500 -mt-1">Eduwisata</p>
+          </div>
+          <img
+            id="menu"
+            src="./src/assets/icons/menu.svg"
+            alt=""
+            class="w-6 cursor-pointer hidden max-[520px]:flex"
+          />
+        </div>
+        <div id="list" class="flex-col gap-5 hidden">
+          <ul class="gap-8 font-medium text-gray-700 flex flex-col">
+            <li>
+              <a
+                href="#hero"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Beranda
+              </a>
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Tentang Kami
+              </a>
+            </li>
+            <li>
+              <a
+                href="#produk"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Produk
+              </a>
+            </li>
+            <li>
+              <a
+                href="#edukasi"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Edukasi
+              </a>
+            </li>
+            <li>
+              <a
+                href="#galeri"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Galeri
+              </a>
+            </li>
+            <li>
+              <a
+                href="#kontak"
+                class="hover:text-[#2F6B3D] transition duration-300"
+              >
+                Kontak
+              </a>
+            </li>
+          </ul>
+          <a
+            href="https://wa.me/6281311189996"
+            class="bg-[#2F6B3D] hover:bg-[#3F7D4B] text-white px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg transition duration-300"
+          >
+            Pesan Sekarang
+          </a>
+        </div>
+        <ul class="hidden md:flex items-center gap-8 font-medium text-gray-700">
+          <li>
+            <a
+              href="#hero"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Beranda
+            </a>
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Tentang Kami
+            </a>
+          </li>
+          <li>
+            <a
+              href="#produk"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Produk
+            </a>
+          </li>
+          <li>
+            <a
+              href="#edukasi"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Edukasi
+            </a>
+          </li>
+          <li>
+            <a
+              href="#galeri"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Galeri
+            </a>
+          </li>
+          <li>
+            <a
+              href="#kontak"
+              class="hover:text-[#2F6B3D] transition duration-300"
+            >
+              Kontak
+            </a>
+          </li>
+        </ul>
+        <a
+          href="https://wa.me/6281311189996"
+          class="bg-[#2F6B3D] hover:bg-[#3F7D4B] text-white px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg transition duration-300 flex max-[520px]:hidden"
+        >
+          Pesan Sekarang
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="hero"
+        class="min-h-screen flex items-center justify-between py-32 px-28 bg-[#FAF8F3] gap-28 text-[#2B2B2B] max-[520px]:flex-col max-[520px]:px-4"
+      >
+        <div class="flex flex-col items-start gap-8">
+          <div class="bg-[#DDE8D5] text-[#2F6B3D] px-6 py-3 rounded-full">
+            <p class="text-sm font-medium">Organik dan Alami</p>
+          </div>
+          <div>
+            <h1 class="text-6xl font-bold leading-tight text-[#2F6B3D]">
+              Budidaya Jamur
+              <span class="block text-[#7EB77F]">Sehat & Alami</span>
+            </h1>
+            <p class="mt-8 text-lg leading-relaxed text-gray-600 max-w-xl">
+              Kami menyediakan berbagai jenis jamur segar berkualitas tinggi,
+              ditanam dengan penuh perhatian dan tanpa bahan kimia berbahaya.
+            </p>
+          </div>
+          <div class="flex items-center gap-5">
+            <a
+              href="#produk"
+              class="bg-[#2F6B3D] hover:bg-[#24552F] text-white px-10 py-2 rounded-full font-semibold shadow-xl scale-105 transition duration-300 text-center"
+            >
+              Lihat Produk
+            </a>
+            <a
+              href="#about"
+              class="border-2 border-[#2F6B3D] text-[#2F6B3D] hover:bg-[#2F6B3D] hover:text-white px-10 py-2 rounded-full font-semibold transition duration-300 text-center"
+            >
+              Tentang Kami
+            </a>
+          </div>
+          <div class="flex items-center gap-8">
+            <div>
+              <h2 class="text-2xl font-bold text-[#2F6B3D]">100+</h2>
+              <p class="text-[#7EB77F] text-sm mt-1">Pengunjung</p>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-[#2F6B3D]">50+</h2>
+              <p class="text-[#7EB77F] text-sm mt-1">Pelatihan</p>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-[#2F6B3D]">★ 4.9</h2>
+              <p class="text-[#7EB77F] text-sm mt-1">Rating</p>
+            </div>
+          </div>
+        </div>
+        <div class="relative w-[50%] max-[520px]:w-full">
+          <div
+            class="absolute -top-4 -left-8 w-full h-full bg-[#DDE2D8] rounded-[60px] rotate-6"
+          ></div>
+          <div
+            class="relative bg-white p-3 rounded-[40px] shadow-2xl overflow-hidden"
+          >
+            <img
+              src="./src/assets/images/hero.jpg"
+              alt="Jamur"
+              class="w-full h-96 object-cover rounded-xl"
+            />
+            <div
+              class="absolute top-10 right-10 bg-white px-6 py-3 rounded-full shadow-lg"
+            >
+              <p class="font-semibold text-[#2F6B3D] text-sm">100% Organik</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="about"
+        class="flex flex-col gap-16 px-28 py-20 max-[520px]:px-4"
+      >
+        <div class="flex flex-col gap-3 items-center">
+          <h2 class="text-5xl font-bold text-[#2F6B3D]">Tentang Kami</h2>
+          <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+        </div>
+        <div
+          class="flex justify-between items-center gap-10 max-[520px]:flex-col"
+        >
+          <div class="w-[50%] relative max-[520px]:w-full">
+            <img
+              src="./src/assets/images/about.jpg"
+              alt=""
+              class="rounded-xl"
+            />
+            <div
+              class="bg-[#2F6B3D] p-5 rounded-xl absolute -bottom-5 -right-5 max-[520px]:-bottom-2 max-[520px]:-right-1"
+            >
+              <p class="text-white font-medium text-sm">
+                Berdiri Sejak <br />
+                <span class="text-3xl font-semibold">2023</span>
+              </p>
+            </div>
+          </div>
+          <div class="w-[50%] flex flex-col gap-5 max-[520px]:w-full">
+            <h3 class="text-3xl font-bold text-[#2F6B3D]">Mushroom House</h3>
+            <p class="text-base leading-relaxed text-gray-600">
+              Mushroom House adalah tempat atau fasilitas yang digunakan untuk
+              kegiatan budidaya jamur, mulai dari proses pembibitan, perawatan,
+              hingga panen jamur. Rumah jamur dirancang dengan kondisi suhu,
+              kelembapan, dan sirkulasi udara yang sesuai agar pertumbuhan jamur
+              dapat berlangsung secara optimal.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-5 bg-[#F0EBDD] p-10 rounded-xl">
+          <h3 class="text-[#2F6B3D] text-3xl font-bold">Sejarah Usaha</h3>
+          <p class="text-base leading-relaxed text-gray-600">
+            P4S Cendawan Eduwisata berawal dari usaha kecil "Mushroom House"
+            milik Pak Hartopo. Perkembangan usaha yang pesat serta tingginya
+            minat pelatihan dan edukasi mendorong berdirinya P4S Cendawan
+            Eduwisata secara resmi pada 1 Maret 2023.
+          </p>
+          <p class="text-base leading-relaxed text-gray-600">
+            Saat ini, P4S tidak hanya bergerak di bidang produksi dan penjualan
+            jamur, tetapi juga menjadi pusat pelatihan dan edukasi budidaya
+            jamur yang bekerja sama dengan berbagai pihak.
+          </p>
+        </div>
+      </section>
+      <section
+        id="visi"
+        class="flex flex-col gap-16 px-28 py-20 max-[520px]:px-4"
+      >
+        <div class="flex flex-col gap-3 items-center">
+          <h2 class="text-5xl font-bold text-[#2F6B3D]">Visi & Misi</h2>
+          <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+        </div>
+        <div class="grid grid-cols-2 gap-12 max-[520px]:grid-cols-1">
+          <div
+            class="flex flex-col gap-6 rounded-xl border-2 border-[#F0EBDD] p-6"
+          >
+            <h3 class="text-[#2F6B3D] text-3xl font-bold">Visi</h3>
+            <p class="text-base leading-relaxed text-gray-600">
+              Menjadikan Mushroom House sebagai tempat budidaya jamur tiram yang
+              menghasilkan indukan jamur berkualitas dan bernilai lebih agar
+              dapat menciptakan kepuasan pelanggan serta mampu bersaing dengan
+              usaha sejenis.
+            </p>
+          </div>
+          <div
+            class="flex flex-col gap-6 rounded-xl border-2 border-[#F0EBDD] p-6"
+          >
+            <h3 class="text-[#2F6B3D] text-3xl font-bold">Misi</h3>
+            <ul
+              class="text-base leading-relaxed text-gray-600 list-disc pl-5 marker:text-[#7EB77F]"
+            >
+              <li>
+                Menghasilkan jamur segar yang berkualitas tinggi serta produk
+                olahan yang berbahan dasar jamur
+              </li>
+              <li>Memberikan pelayanan yang terbaik kepada pelanggan.</li>
+              <li>
+                Membuat produk jamur agar dapat diterima oleh seluruh lapisan
+                masyarakat sebagai suatu makanan alternatif yang bergizi tinggi.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section
+        id="produk"
+        class="flex flex-col gap-16 px-28 py-32 bg-[#F6F5F0] max-[520px]:px-4 max-[520px]:items-center max-[520px]:justify-center"
+      >
+        <div class="flex flex-col gap-3 items-center">
+          <h2 class="text-5xl font-bold text-[#2F6B3D] max-[520px]:text-center">
+            Produk Unggulan
+          </h2>
+          <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+        </div>
+        <div class="flex justify-center flex-wrap gap-8 max-[520px]:flex-col">
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/jamur-putih.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  Jamur Tiram Putih
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 24.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/jamur-coklat.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  Jamur Tiram Coklat
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 24.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/jamur-merang.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  Jamur Merang
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 35.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/f0.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  F0 Kultur Murni (PDA)
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 100.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/f1.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  F1 Bibit Turunan Murni
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 35.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/f2.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  F2 Bibit Tebar
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 7.000</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group w-72 rounded-2xl bg-white shadow-md transition duration-300 hover:-translate-y-2 overflow-hidden hover:border border-[#7EB77F]"
+          >
+            <div class="overflow-hidden">
+              <img
+                src="./src/assets/images/baglog.jpg"
+                alt="Jamur Tiram Putih"
+                class="w-full h-56 object-cover group-hover:scale-110 transition duration-300"
+              />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="text-[#2F6B3D] text-xl font-semibold">
+                  Baglog 80-100%
+                </h4>
+                <span
+                  class="bg-[#E7F4E8] text-[#2F6B3D] text-sm font-semibold px-3 py-1 rounded-full"
+                >
+                  Fresh
+                </span>
+              </div>
+              <div>
+                <p class="text-2xl font-semibold text-[#7FB77E]">Rp 3.300</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="edukasi"
+        class="flex flex-col gap-16 px-28 py-32 max-[520px]:px-4 max-[520px]:items-center max-[520px]:justify-center"
+      >
+        <div class="flex flex-col gap-6 items-center">
+          <div class="flex flex-col gap-3 items-center">
+            <h2
+              class="text-5xl font-bold text-[#2F6B3D] max-[520px]:text-center"
+            >
+              Edukasi Jamur
+            </h2>
+            <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+          </div>
+          <p
+            class="text-base leading-relaxed text-gray-600 text-center max-w-xl"
+          >
+            Belajar langsung tentang proses dan pengenaan budidaya jamur,
+            kewirausahaan dan pengolahan berbagai makanan dari jamur
+          </p>
+        </div>
+        <div class="grid grid-cols-3 gap-10 max-[520px]:grid-cols-1">
+          <div
+            class="relative overflow-hidden rounded-xl min-h-120 group shadow-lg hover:shadow-2xl transition duration-300 hover:-translate-y-2"
+          >
+            <img
+              src="./src/assets/images/jamur-putih.jpg"
+              alt="Jamur"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            />
+            <div
+              class="absolute inset-0 bg-linear-to-r from-[#FFFFFF] via-[#FFFFFF]/95 to-[#F6F5F0]/10"
+            ></div>
+            <div class="relative z-10 p-8 h-full flex flex-col">
+              <h2 class="text-4xl font-extrabold text-[#1F7A34]">PAKET 1</h2>
+              <div
+                class="mt-5 bg-[#D8E3A7] text-[#445B2D] px-5 py-2 rounded-full w-fit"
+              >
+                <p class="font-semibold">IDR 30.000 / PAX</p>
+              </div>
+              <div class="w-28 h-1 bg-[#1F7A34] rounded-full mt-5"></div>
+
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  EDUKASI
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Belajar dan diskusi bagaimana budidaya jamur.</li>
+                  <li>Belajar tentang bagaimana berwirausaha jamur.</li>
+                  <li>
+                    Praktik secara singkat tentang bagaimana cara membuat media
+                    tanam jamur.
+                  </li>
+                  <li>Keliling rumah jamur sekaligus melihat</li>
+                  <li>Panen jamur segar langsung di tempat budidaya</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden rounded-xl min-h-120 group shadow-lg hover:shadow-2xl transition duration-300 hover:-translate-y-2"
+          >
+            <img
+              src="./src/assets/images/jamur-putih.jpg"
+              alt="Jamur"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            />
+            <div
+              class="absolute inset-0 bg-linear-to-r from-[#FFFFFF] via-[#FFFFFF]/95 to-[#F6F5F0]/10"
+            ></div>
+            <div class="relative z-10 p-8 h-full flex flex-col">
+              <h2 class="text-4xl font-extrabold text-[#1F7A34]">PAKET 2</h2>
+              <div
+                class="mt-5 bg-[#D8E3A7] text-[#445B2D] px-5 py-2 rounded-full w-fit"
+              >
+                <p class="font-semibold">IDR 40.000 / PAX</p>
+              </div>
+              <div class="w-28 h-1 bg-[#1F7A34] rounded-full mt-5"></div>
+
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  EDUKASI
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Belajar dan diskusi bagaimana budidaya jamur.</li>
+                  <li>Belajar tentang bagaimana berwirausaha jamur.</li>
+                  <li>
+                    Praktik secara singkat tentang bagaimana cara membuat media
+                    tanam jamur.
+                  </li>
+                  <li>Keliling rumah jamur sekaligus melihat</li>
+                  <li>Panen jamur segar langsung di tempat budidaya</li>
+                </ul>
+              </div>
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  Paket Makan
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Nasi.</li>
+                  <li>Jamur Katsu.</li>
+                  <li>Pentol Jamur</li>
+                  <li>Air Mineral</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative overflow-hidden rounded-xl min-h-120 group shadow-lg hover:shadow-2xl transition duration-300 hover:-translate-y-2"
+          >
+            <img
+              src="./src/assets/images/jamur-putih.jpg"
+              alt="Jamur"
+              class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700"
+            />
+            <div
+              class="absolute inset-0 bg-linear-to-r from-[#FFFFFF] via-[#FFFFFF]/95 to-[#F6F5F0]/10"
+            ></div>
+            <div class="relative z-10 p-8 h-full flex flex-col">
+              <h2 class="text-4xl font-extrabold text-[#1F7A34]">PAKET 3</h2>
+              <div
+                class="mt-5 bg-[#D8E3A7] text-[#445B2D] px-5 py-2 rounded-full w-fit"
+              >
+                <p class="font-semibold">IDR 50.000 / PAX</p>
+              </div>
+              <div class="w-28 h-1 bg-[#1F7A34] rounded-full mt-5"></div>
+
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  EDUKASI
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Belajar dan diskusi bagaimana budidaya jamur.</li>
+                  <li>Belajar tentang bagaimana berwirausaha jamur.</li>
+                  <li>
+                    Praktik secara singkat tentang bagaimana cara membuat media
+                    tanam jamur.
+                  </li>
+                  <li>Keliling rumah jamur sekaligus melihat</li>
+                  <li>Panen jamur segar langsung di tempat budidaya</li>
+                </ul>
+              </div>
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  Paket Makan
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Nasi.</li>
+                  <li>Jamur Katsu.</li>
+                  <li>Pentol Jamur</li>
+                  <li>Air Mineral</li>
+                </ul>
+              </div>
+              <div class="mt-8">
+                <h4 class="text-xl font-extrabold text-[#1F7A34] mb-4">
+                  Souvenir Baglog
+                </h4>
+                <ul
+                  class="space-y-3 text-[#1F7A34] text-sm leading-relaxed list-disc pl-5 marker:text-[#1F7A34]"
+                >
+                  <li>Baglog.</li>
+                  <li>Goodie Bag.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="budidaya"
+        class="bg-[#FAF8F3] flex flex-col gap-16 px-28 py-32 max-[520px]:px-4"
+      >
+        <div class="flex flex-col gap-3 items-center max-[520px]:items-start">
+          <h2 class="text-5xl font-bold text-[#2F6B3D]">
+            Cara Budidaya Jamur Tiram
+          </h2>
+          <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+        </div>
+        <div class="flex flex-col items-center gap-6 max-[520px]:items-start">
+          <div
+            class="group bg-white border border-[#E9E2D2] rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 p-7 flex flex-col lg:flex-row gap-8 overflow-hidden w-[85%] max-[520px]:w-full max-[520px]:items-center"
+          >
+            <div
+              class="w-16 h-16 min-w-16 rounded-2xl bg-linear-to-br from-[#2F6B3D] to-[#7EB77F] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+            >
+              1
+            </div>
+            <div class="flex flex-col gap-5 flex-1">
+              <div>
+                <h3 class="text-3xl font-bold text-[#2F6B3D] mb-2">
+                  Siapkan Kumbung
+                </h3>
+
+                <div class="w-20 h-1 bg-[#7EB77F] rounded-full"></div>
+              </div>
+              <ul
+                class="space-y-3 text-gray-600 text-[15px] leading-relaxed list-disc pl-5 marker:text-[#2F6B3D]"
+              >
+                <li>Tempat teduh dan tidak terkena sinar matahari langsung.</li>
+                <li>
+                  Sirkulasi udara baik dengan kelembapan terjaga sekitar 70-90%.
+                </li>
+                <li>Suhu ideal berkisar antara 22-28°C.</li>
+                <li>Area bersih dan tidak lembap berlebihan.</li>
+                <li>Siapkan rak khusus untuk menyusun baglog jamur.</li>
+              </ul>
+            </div>
+            <div
+              class="relative w-80 h-52 rounded-xl overflow-hidden shadow-md"
+            >
+              <img
+                src="./src/assets/images/kumbung.jpg"
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+          <div
+            class="group bg-white border border-[#E9E2D2] rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 p-7 flex flex-col lg:flex-row gap-8 overflow-hidden w-[85%] max-[520px]:w-full max-[520px]:items-center"
+          >
+            <div
+              class="w-16 h-16 min-w-16 rounded-2xl bg-linear-to-br from-[#2F6B3D] to-[#7EB77F] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+            >
+              2
+            </div>
+            <div class="flex flex-col gap-5 flex-1">
+              <div>
+                <h3 class="text-3xl font-bold text-[#2F6B3D] mb-2">
+                  Siapkan Baglog
+                </h3>
+
+                <div class="w-20 h-1 bg-[#7EB77F] rounded-full"></div>
+              </div>
+              <ul
+                class="space-y-3 text-gray-600 text-[15px] leading-relaxed list-disc pl-5 marker:text-[#2F6B3D]"
+              >
+                <li>Media: serbuk kayu, dedak, kapur, udara</li>
+                <li>Campur bahan hingga merata.</li>
+                <li>Masukkan ke plastik baglog, padatkan.</li>
+                <li>Sterilisasi (dikukus) ± 6-8 jam.</li>
+                <li>Dinginkan, lalu inokulasi dengan bibit jamur.</li>
+              </ul>
+            </div>
+            <div
+              class="relative w-80 h-52 rounded-xl overflow-hidden shadow-md"
+            >
+              <img
+                src="./src/assets/images/baglogs.jpg"
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+          <div
+            class="group bg-white border border-[#E9E2D2] rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 p-7 flex flex-col lg:flex-row gap-8 overflow-hidden w-[85%] max-[520px]:w-full max-[520px]:items-center"
+          >
+            <div
+              class="w-16 h-16 min-w-16 rounded-2xl bg-linear-to-br from-[#2F6B3D] to-[#7EB77F] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+            >
+              3
+            </div>
+            <div class="flex flex-col gap-5 flex-1">
+              <div>
+                <h3 class="text-3xl font-bold text-[#2F6B3D] mb-2">Inkubasi</h3>
+
+                <div class="w-20 h-1 bg-[#7EB77F] rounded-full"></div>
+              </div>
+              <ul
+                class="space-y-3 text-gray-600 text-[15px] leading-relaxed list-disc pl-5 marker:text-[#2F6B3D]"
+              >
+                <li>Simpan baglog di tempat gelap.</li>
+                <li>Suhu ideal 22-28°C.</li>
+                <li>
+                  Tunggu ± 2-4 minggu sampai miselium tumbuh penuh (warna
+                  putih).
+                </li>
+                <li>Jangan sering dipindah atau dibuka.</li>
+              </ul>
+            </div>
+            <div
+              class="relative w-80 h-52 rounded-xl overflow-hidden shadow-md"
+            >
+              <img
+                src="./src/assets/images/inkubasi.jpg"
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+          <div
+            class="group bg-white border border-[#E9E2D2] rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 p-7 flex flex-col lg:flex-row gap-8 overflow-hidden w-[85%] max-[520px]:w-full max-[520px]:items-center"
+          >
+            <div
+              class="w-16 h-16 min-w-16 rounded-2xl bg-linear-to-br from-[#2F6B3D] to-[#7EB77F] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+            >
+              4
+            </div>
+            <div class="flex flex-col gap-5 flex-1">
+              <div>
+                <h3 class="text-3xl font-bold text-[#2F6B3D] mb-2">
+                  Perawatan
+                </h3>
+
+                <div class="w-20 h-1 bg-[#7EB77F] rounded-full"></div>
+              </div>
+              <ul
+                class="space-y-3 text-gray-600 text-[15px] leading-relaxed list-disc pl-5 marker:text-[#2F6B3D]"
+              >
+                <li>Buka penutup baglog.</li>
+                <li>Semprot air 1-2 kali sehari (pagi & sore).</li>
+                <li>Jaga kelembapan 80-90%.</li>
+                <li>Hindari air menggenang dan sinar matahari langsung.</li>
+                <li>Jaga kebersihan kumbung.</li>
+              </ul>
+            </div>
+            <div
+              class="relative w-80 h-52 rounded-xl overflow-hidden shadow-md"
+            >
+              <img
+                src="./src/assets/images/perawatan.jpg"
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+          <div
+            class="group bg-white border border-[#E9E2D2] rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition duration-300 p-7 flex flex-col lg:flex-row gap-8 overflow-hidden w-[85%] max-[520px]:w-full max-[520px]:items-center"
+          >
+            <div
+              class="w-16 h-16 min-w-16 rounded-2xl bg-linear-to-br from-[#2F6B3D] to-[#7EB77F] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+            >
+              5
+            </div>
+            <div class="flex flex-col gap-5 flex-1">
+              <div>
+                <h3 class="text-3xl font-bold text-[#2F6B3D] mb-2">Panen</h3>
+
+                <div class="w-20 h-1 bg-[#7EB77F] rounded-full"></div>
+              </div>
+              <ul
+                class="space-y-3 text-gray-600 text-[15px] leading-relaxed list-disc pl-5 marker:text-[#2F6B3D]"
+              >
+                <li>Jamur siap panen saat tudung mekar.</li>
+                <li>Cabut jamur hingga pangkalnya.</li>
+                <li>Lakukan panen pagi hari untuk kualitas terbaik.</li>
+                <li>
+                  Satu baglog bisa dipanen 3-5 kali (setiap 4-7 hari sekali).
+                </li>
+              </ul>
+            </div>
+            <div
+              class="relative w-80 h-52 rounded-xl overflow-hidden shadow-md"
+            >
+              <img
+                src="./src/assets/images/panen.jpg"
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="galeri"
+        class="flex flex-col gap-16 px-28 py-32 max-[520px]:px-4"
+      >
+        <div class="flex flex-col gap-6 items-center">
+          <div class="flex flex-col gap-3 items-center">
+            <h2 class="text-5xl font-bold text-[#2F6B3D]">Galeri</h2>
+            <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+          </div>
+          <p
+            class="text-base leading-relaxed text-gray-600 text-center max-w-xl"
+          >
+            Dokumentasi kegiatan budidaya jamur, pelatihan, dan kunjungan
+            edukasi
+          </p>
+        </div>
+        <div>
+          <div class="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5">
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc7.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc14.jpg"
+                alt=""
+                class="w-full h-162 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc3.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc21.jpg"
+                alt=""
+                class="w-full h-130 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc1.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc18.jpg"
+                alt=""
+                class="w-full h-145 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc9.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc24.jpg"
+                alt=""
+                class="w-full h-180 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc5.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc12.jpg"
+                alt=""
+                class="w-full h-125 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc16.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc2.jpg"
+                alt=""
+                class="w-full h-135 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc20.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc11.jpg"
+                alt=""
+                class="w-full h-120 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc4.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc22.jpg"
+                alt=""
+                class="w-full h-172 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc8.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc17.jpg"
+                alt=""
+                class="w-full h-140 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc6.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc13.jpg"
+                alt=""
+                class="w-full h-135 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc23.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc10.jpg"
+                alt=""
+                class="w-full h-150 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc19.jpg"
+                alt=""
+                class="w-full object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+            <div
+              class="group relative overflow-hidden rounded-[28px] shadow-md break-inside-avoid"
+            >
+              <img
+                src="./src/assets/images/doc15.jpg"
+                alt=""
+                class="w-full h-130 object-cover group-hover:scale-110 transition duration-700"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="kontak"
+        class="bg-[#FAF8F3] flex flex-col px-28 py-32 gap-10 max-[520px]:px-4"
+      >
+        <div class="flex flex-col gap-6 items-center">
+          <div class="flex flex-col gap-3 items-center">
+            <h2 class="text-5xl font-bold text-[#2F6B3D]">Kontak Kami</h2>
+            <div class="h-[0.2rem] w-28 bg-[#7EB77F]"></div>
+          </div>
+          <p
+            class="text-base leading-relaxed text-gray-600 text-center max-w-xl"
+          >
+            Hubungi kami untuk informasi lebih lanjut atau kunjungi langsung
+            tempat kami
+          </p>
+        </div>
+        <div class="grid grid-cols-2 gap-14 max-[520px]:grid-cols-1">
+          <div class="flex flex-col gap-5">
+            <div
+              class="flex gap-4 bg-white w-full p-6 rounded-xl items-start border border-[#E8DFC8] hover:border-[#2F6B3D] transition"
+            >
+              <div
+                class="rounded-full p-2 bg-[#2F6B3D] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+              >
+                <img src="./src/assets/icons/whatsapp.svg" alt="" class="w-7" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-xl font-semibold text-[#2F6B3D]">Whatsapp</h3>
+                <a
+                  href="https://wa.me/6281311189996"
+                  class="text-[#7EB77F] font-medium"
+                  >081311189996</a
+                >
+              </div>
+            </div>
+            <div
+              class="flex gap-4 bg-white w-full p-6 rounded-xl items-start border border-[#E8DFC8] hover:border-[#2F6B3D] transition"
+            >
+              <div
+                class="rounded-full p-2 bg-[#2F6B3D] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+              >
+                <img src="./src/assets/icons/mail.svg" alt="" class="w-7" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-xl font-semibold text-[#2F6B3D]">Email</h3>
+                <a
+                  href="mailto:hartopo1983@gmail.com"
+                  class="text-[#7EB77F] font-medium"
+                  >hartopo1983@gmail.com</a
+                >
+              </div>
+            </div>
+            <div
+              class="flex gap-4 bg-white w-full p-6 rounded-xl items-start border border-[#E8DFC8] hover:border-[#2F6B3D] transition"
+            >
+              <div
+                class="rounded-full p-2 bg-[#2F6B3D] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+              >
+                <img src="./src/assets/icons/location.svg" alt="" class="w-7" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-xl font-semibold text-[#2F6B3D]">Alamat</h3>
+                <p class="text-gray-600 font-medium">
+                  Jl. SMT Ujung No.149, Suka Maju Kec. Medan Johor, Kota Medan
+                </p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 bg-white w-full p-6 rounded-xl items-start border border-[#E8DFC8] hover:border-[#2F6B3D] transition"
+            >
+              <div
+                class="rounded-full p-2 bg-[#2F6B3D] text-white text-2xl font-bold shadow-lg flex items-center justify-center"
+              >
+                <img src="./src/assets/icons/clock.svg" alt="" class="w-7" />
+              </div>
+              <div class="flex flex-col gap-1">
+                <h3 class="text-xl font-semibold text-[#2F6B3D]">
+                  Jam Operasional
+                </h3>
+                <ul class="text-gray-600 font-medium">
+                  <li>Senin - Minggu</li>
+                  <li>08.00 - 17.00 WIB</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <form
+              action=""
+              class="flex flex-col gap-5 bg-white w-full p-6 rounded-xl items-start border border-[#E8DFC8] hover:border-[#2F6B3D] transition"
+            >
+              <h3 class="text-xl font-semibold text-[#2F6B3D]">Kirim Pesan</h3>
+              <div class="w-full flex flex-col gap-3">
+                <div class="flex flex-col gap-1">
+                  <label for="" class="font-medium text-[#2F6B3D]">Nama</label>
+                  <input
+                    type="text"
+                    class="bg-[#F6F3EA] w-full rounded-xl py-3 px-4 outline-[#2F6B3D]"
+                    placeholder="Masukkan nama anda"
+                  />
+                </div>
+                <div class="flex flex-col gap-1">
+                  <label for="" class="font-medium text-[#2F6B3D]">Email</label>
+                  <input
+                    type="email"
+                    class="bg-[#F6F3EA] w-full rounded-xl py-3 px-4 outline-[#2F6B3D]"
+                    placeholder="Masukkan email anda"
+                  />
+                </div>
+                <div class="flex flex-col gap-1">
+                  <label for="" class="font-medium text-[#2F6B3D]">Pesan</label>
+                  <textarea
+                    type="text"
+                    class="bg-[#F6F3EA] w-full rounded-xl py-3 px-4 outline-[#2F6B3D]"
+                    placeholder="Tulis pesan anda"
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                class="bg-[#2F6B3D] py-3 rounded-xl text-white w-full font-medium"
+              >
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15928.843760558571!2d98.6809803!3d3.5387319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313bd81474c87b%3A0x2293b77d5d8db19!2sMushroom%20House%20Medan!5e0!3m2!1sid!2sid!4v1778602068755!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="w-full rounded-xl"
+        ></iframe>
+      </section>
+      <footer
+        class="flex flex-col gap-8 px-28 py-16 bg-[#2F6B3D] max-[520px]:px-4"
+      >
+        <div
+          class="flex justify-between items-start max-[520px]:flex-col max-[520px]:gap-6"
+        >
+          <div class="flex flex-col gap-3">
+            <div>
+              <h4 class="text-xl font-bold tracking-wide text-white">
+                P4S CENDAWA
+              </h4>
+              <p class="text-sm text-[#E2DFC8]">Eduwisata</p>
+            </div>
+            <p class="text-sm text-[#E2DFC8]">
+              Pusat budidaya jamur, edukasi, dan pelatihan <br />
+              kewirausahaan jamur di Medan
+            </p>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h5 class="text-lg font-bold tracking-wide text-white">Menu</h5>
+            <ul class="text-sm text-[#E2DFC8] flex flex-col gap-1">
+              <li><a href="#hero" class="hover:text-white">Beranda</a></li>
+              <li>
+                <a href="#about" class="hover:text-white">Tentang Kami</a>
+              </li>
+              <li><a href="#produk" class="hover:text-white">Produk</a></li>
+              <li><a href="#edukasi" class="hover:text-white">Edukasi</a></li>
+              <li><a href="#galeri" class="hover:text-white">Galeri</a></li>
+              <li><a href="#kontak" class="hover:text-white">Kontak</a></li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h5 class="text-lg font-bold tracking-wide text-white">Kontak</h5>
+            <ul class="text-sm text-[#E2DFC8] flex flex-col gap-1">
+              <li>
+                <a href="https://wa.me/6281311189996" class="hover:text-white"
+                  >081311189996</a
+                >
+              </li>
+              <li>
+                <a href="mailto:hartopo1983@gmail.com" class="hover:text-white"
+                  >hartopo1983@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="" class="hover:text-white"
+                  >Jl. SMT Ujung No.149, Suka Maju, Medan Johor</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h5 class="text-lg font-bold tracking-wide text-white">
+              Ikuti Kami
+            </h5>
+            <div class="flex items-center gap-5">
+              <a
+                href="https://www.instagram.com/mushroomhousemedan/"
+                class="p-2 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 hover:scale-110 transition duration-300 shadow-lg"
+              >
+                <img
+                  src="./src/assets/icons/instagram.svg"
+                  alt="Instagram"
+                  class="w-6"
+                />
+              </a>
+              <a
+                href="#"
+                class="p-2 rounded-full bg-white/10 border border-white/20 flex items-center justify-center hover:bg-white/20 hover:scale-110 transition duration-300 shadow-lg"
+              >
+                <img
+                  src="./src/assets/icons/facebook.svg"
+                  alt="Instagram"
+                  class="w-6"
+                />
+              </a>
+            </div>
+            <a
+              href="https://wa.me/6281311189996"
+              class="bg-[#7EB77F] py-2 rounded-xl w-full text-white font-medium px-10 hover:bg-white hover:text-black transition"
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+        </div>
+        <div class="h-[0.1rem] w-full bg-[#598964]"></div>
+        <p class="font-medium text-sm text-center text-white">
+          © 2026 P4S Cendawa Eduwisata. All rights reserved.
+        </p>
+      </footer>
+    </main>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
