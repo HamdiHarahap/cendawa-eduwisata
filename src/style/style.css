@@ -4,3 +4,20 @@ body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+
+@media screen and (max-width: 920px) {
+  nav {
+    padding: 1.5rem 2rem;
+  }
+
+  #hero,
+  #about,
+  #visi,
+  #produk,
+  #edukasi,
+  #budidaya,
+  #kontak,
+  footer {
+    padding: 8rem 2rem;
+  }
+}
