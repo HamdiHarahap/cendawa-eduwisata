@@ -20,7 +20,7 @@ Nama: ${name}
 Email: ${email}
 Pesan: ${message}`;
 
-  const phoneNumber = '6281260244154';
+  const phoneNumber = '6281311189996';
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     text
   )}`;
